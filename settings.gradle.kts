@@ -1,0 +1,2 @@
+rootProject.name = "dinosaurs-attack"
+
