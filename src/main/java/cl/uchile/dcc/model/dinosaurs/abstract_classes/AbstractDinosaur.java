@@ -6,7 +6,7 @@ import cl.uchile.dcc.model.states.NormalMood;
 
 public abstract class AbstractDinosaur implements Dinosaur {
 
-  private final int attack;
+  private int attack;
   private int hp;
   private Mood mood;
 
@@ -45,6 +45,10 @@ public abstract class AbstractDinosaur implements Dinosaur {
    */
   public int getAttack() {
     return (int) (getBaseAttack() * mood.getWeightForAttack());
+  }
+
+  public void setAttack(int attack) {
+    this.attack = attack;
   }
 
   @Override
@@ -92,5 +96,15 @@ public abstract class AbstractDinosaur implements Dinosaur {
    */
   public int getWeightedAttack(double weight) {
     return (int) weight * getAttack();
+  }
+
+  @Override
+  public void increaseHp(int hpToIncrease) {
+    this.setHp(getHp() + hpToIncrease);
+  }
+
+  @Override
+  public void increaseAttack(int attackToIncrease) {
+    this.setAttack(getBaseAttack() + attackToIncrease);
   }
 }

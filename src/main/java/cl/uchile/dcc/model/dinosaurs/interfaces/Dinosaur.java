@@ -25,4 +25,8 @@ public interface Dinosaur {
 
   void toTiredMood();
 
+  void increaseHp(int hpToIncrease);
+
+  void increaseAttack(int attackToIncrease);
+
 }
