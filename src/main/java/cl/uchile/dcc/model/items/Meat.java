@@ -2,7 +2,7 @@ package cl.uchile.dcc.model.items;
 
 import cl.uchile.dcc.model.dinosaurs.interfaces.Dinosaur;
 
-public class Meat implements Food {
+public class Meat implements CarnivorousFood {
 
   private final int hpToHeal;
   private final int atkToIncrease;
