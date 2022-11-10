@@ -1,11 +1,14 @@
 package cl.uchile.dcc.model.dinosaurs.abstract_classes;
 
 import cl.uchile.dcc.model.dinosaurs.interfaces.Dinosaur;
+import cl.uchile.dcc.model.states.Mood;
+import cl.uchile.dcc.model.states.NormalMood;
 
 public abstract class AbstractDinosaur implements Dinosaur {
 
   private final int attack;
   private int hp;
+  private Mood mood;
 
   /**
    * Constructor.
@@ -16,6 +19,8 @@ public abstract class AbstractDinosaur implements Dinosaur {
   public AbstractDinosaur(int attack, int hp) {
     this.attack = attack;
     this.hp = hp;
+    this.mood = new NormalMood();
+    this.mood.setDinosaur(this);
   }
 
   /**
@@ -38,7 +43,37 @@ public abstract class AbstractDinosaur implements Dinosaur {
    * Gets the attack
    * @return the attack
    */
-  private int getAttack() {
+  public int getAttack() {
+    return (int) (getBaseAttack() * mood.getWeightForAttack());
+  }
+
+  @Override
+  public void setMood(Mood mood) {
+    this.mood = mood;
+    this.mood.setDinosaur(this);
+  }
+
+  @Override
+  public void toFuriousMood() {
+    mood.toFuriousMood();
+  }
+
+  @Override
+  public void toNormalMood() {
+    mood.toNormalMood();
+  }
+
+  @Override
+  public void toSadMood() {
+    mood.toSadMood();
+  }
+
+  @Override
+  public void toTiredMood() {
+    mood.toTiredMood();
+  }
+
+  public int getBaseAttack() {
     return attack;
   }
 

@@ -1,5 +1,7 @@
 package cl.uchile.dcc.model.states;
 
+import cl.uchile.dcc.model.dinosaurs.interfaces.Dinosaur;
+
 public interface Mood {
 
   /**
@@ -8,5 +10,15 @@ public interface Mood {
    * @return El peso de ponderación para el ataque.
    */
   double getWeightForAttack();
+
+  void setDinosaur(Dinosaur dinosaur);
+
+  void toFuriousMood();
+
+  void toNormalMood();
+
+  void toSadMood();
+
+  void toTiredMood();
 
 }

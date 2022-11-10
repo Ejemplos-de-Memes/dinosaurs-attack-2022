@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="679b1972-b668-4dd0-ae6d-2b04b758b714" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/Mood.java" afterDir="false" />
+    <list default="true" id="679b1972-b668-4dd0-ae6d-2b04b758b714" name="Changes" comment="feat: implementar los estados de animo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/exceptions/NotPermittedMoodException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/AbstractMood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/abstract_classes/AbstractDinosaur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/abstract_classes/AbstractDinosaur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/interfaces/Dinosaur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/interfaces/Dinosaur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/FuriousMood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/FuriousMood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/Mood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/Mood.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +31,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="aux7/01-state-pattern" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,19 +55,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/asoln/IdeaProjects/auxiliares/dinosaurs-attack/src/main/java/cl/uchile/dcc/model",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/asoln/IdeaProjects/auxiliares/dinosaurs-attack/src/main/java/cl/uchile/dcc/model&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\asoln\IdeaProjects\auxiliares\dinosaurs-attack\src\main\java\cl\uchile\dcc\model" />
@@ -76,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668050946102</updated>
-      <workItem from="1668050950170" duration="3011000" />
+      <workItem from="1668050950170" duration="4687000" />
+      <workItem from="1668077132490" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668052945216</created>
@@ -85,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668052945216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: implementar los estados de animo">
+      <created>1668056689372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668056689372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="feat: implementar los estados de animo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementar los estados de animo" />
   </component>
 </project>
