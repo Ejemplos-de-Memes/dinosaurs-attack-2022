@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="679b1972-b668-4dd0-ae6d-2b04b758b714" name="Changes" comment="feat: Implementar ejemplo factories">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/CarnivorousFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/Herb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/HerbivorousFood.java" afterDir="false" />
+    <list default="true" id="679b1972-b668-4dd0-ae6d-2b04b758b714" name="Changes" comment="feat: Crear clase NullFood">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/bag/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/bag/ItemComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/abstract_classes/AbstractDinosaur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/abstract_classes/AbstractDinosaur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/interfaces/Dinosaur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/interfaces/Dinosaur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/CarnivorousFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/CarnivorousFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/Herb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/Herb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/HerbivorousFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/HerbivorousFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/Meat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/NullFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/NullFood.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="aux7/02-factory-pattern/complete" />
+        <entry key="$PROJECT_DIR$" value="aux7/04-composite-pattern/incomplete" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
