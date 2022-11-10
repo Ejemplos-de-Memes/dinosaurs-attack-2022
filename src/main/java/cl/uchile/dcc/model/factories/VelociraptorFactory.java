@@ -4,7 +4,7 @@ import cl.uchile.dcc.model.dinosaurs.Velociraptor;
 
 public class VelociraptorFactory extends AbstractDinosaurFactory {
 
-  VelociraptorFactory(int attack, int hp) {
+  public VelociraptorFactory(int attack, int hp) {
     super(attack, hp);
   }
 

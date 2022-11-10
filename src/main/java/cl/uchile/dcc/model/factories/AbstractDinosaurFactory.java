@@ -5,7 +5,7 @@ public abstract class AbstractDinosaurFactory implements DinosaurFactory {
   private int attack;
   private int hp;
 
-  AbstractDinosaurFactory(int attack, int hp) {
+  public AbstractDinosaurFactory(int attack, int hp) {
     this.attack = attack;
     this.hp = hp;
   }

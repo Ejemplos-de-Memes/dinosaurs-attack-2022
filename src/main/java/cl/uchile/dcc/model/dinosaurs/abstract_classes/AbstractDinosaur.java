@@ -27,7 +27,7 @@ public abstract class AbstractDinosaur implements Dinosaur {
    * Gets the HP
    * @return the HP
    */
-  private int getHp() {
+  public int getHp() {
     return hp;
   }
 

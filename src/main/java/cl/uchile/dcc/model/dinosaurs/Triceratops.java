@@ -15,6 +15,14 @@ public class Triceratops extends AbstractHerbivorous {
     super(attack, hp);
   }
 
+  @Override
+  public String toString() {
+    return "Triceratops{" +
+        "hp=" + getHp() +
+        ", baseAttack=" + getBaseAttack() +
+        '}';
+  }
+
   /**
    * Attacks a dinosaur
    * @param dinosaur a dinosaur

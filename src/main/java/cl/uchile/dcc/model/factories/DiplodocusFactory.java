@@ -4,7 +4,7 @@ import cl.uchile.dcc.model.dinosaurs.Diplodocus;
 import cl.uchile.dcc.model.dinosaurs.interfaces.Dinosaur;
 
 public class DiplodocusFactory extends AbstractDinosaurFactory {
-  DiplodocusFactory(int attack, int hp) {
+  public DiplodocusFactory(int attack, int hp) {
     super(attack, hp);
   }
 

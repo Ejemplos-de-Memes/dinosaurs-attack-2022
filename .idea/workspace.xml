@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="679b1972-b668-4dd0-ae6d-2b04b758b714" name="Changes" comment="feat: implementar los estados de animo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/exceptions/NotPermittedMoodException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/AbstractMood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="679b1972-b668-4dd0-ae6d-2b04b758b714" name="Changes" comment="feat: Implementar factories">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/abstract_classes/AbstractDinosaur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/abstract_classes/AbstractDinosaur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/interfaces/Dinosaur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/interfaces/Dinosaur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/FuriousMood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/FuriousMood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/Mood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/states/Mood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/Diplodocus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/dinosaurs/Diplodocus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/AbstractDinosaurFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/AbstractDinosaurFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/DiplodocusFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/DiplodocusFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/TRexFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/TRexFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/TriceratopsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/TriceratopsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/VelociraptorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/factories/VelociraptorFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="aux7/01-state-pattern" />
+        <entry key="$PROJECT_DIR$" value="aux7/02-factory-pattern/incomplete" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668056689372</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: Implementar factories">
+      <created>1668079331256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668079331256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +118,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="aux7/02-factory-pattern/complete" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -120,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="feat: implementar los estados de animo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: implementar los estados de animo" />
+    <MESSAGE value="feat: Implementar factories" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implementar factories" />
   </component>
 </project>

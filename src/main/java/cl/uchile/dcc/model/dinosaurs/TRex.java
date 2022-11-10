@@ -16,6 +16,14 @@ public class TRex extends AbstractCarnivorous implements AttackedByAVelociraptor
     super(attack, hp);
   }
 
+  @Override
+  public String toString() {
+    return "TRex{" +
+        "hp=" + getHp() +
+        ", baseAttack=" + getBaseAttack() +
+        '}';
+  }
+
   /**
    * Attacks a dinosaur
    * @param dinosaur a dinosaur
