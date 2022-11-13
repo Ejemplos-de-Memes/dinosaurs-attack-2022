@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="679b1972-b668-4dd0-ae6d-2b04b758b714" name="Changes" comment="feat: Crear clase NullFood">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/bag/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/bag/ItemComponent.java" afterDir="false" />
+    <list default="true" id="679b1972-b668-4dd0-ae6d-2b04b758b714" name="Changes" comment="feat: Crear clas Bag e implementar Composite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/CarnivorousFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/CarnivorousFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/Herb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/Herb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/HerbivorousFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/HerbivorousFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/Meat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/NullFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cl/uchile/dcc/model/items/food/NullFood.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +100,8 @@
       <updated>1668050946102</updated>
       <workItem from="1668050950170" duration="4687000" />
       <workItem from="1668077132490" duration="739000" />
+      <workItem from="1668104690055" duration="785000" />
+      <workItem from="1668362565776" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1668052945216</created>
